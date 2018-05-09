@@ -2,7 +2,7 @@
 #include <iostream>
 #include "opair.cpp"
 #include "IllegalCoordinateException.cpp"
-#include "illegalcharexception.cpp"
+#include "IllegalCharException.cpp"
 using namespace std;
 class Board
 {
