@@ -79,4 +79,8 @@ ostream & operator<<(ostream & os, const Board & c)
 
 	return os;
 }
+bool operator== (Board &t1, Board &t2)	      //operator function
+{
+	return (t1.Bchar == t2.Bchar&&t1.size == t2.size);
+}
 
