@@ -20,6 +20,6 @@ public:
 	friend ostream& operator<< (ostream& os, const Board& c);
 	friend istream& operator>> (istream& is, Board& c);
 	char& operator [](opair index);
-
+	friend bool operator==(Board &t1, Board &t2);
 	
 };
